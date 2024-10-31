@@ -1,0 +1,40 @@
+
+.pofw-product-options-wrapper .ocf-field.pofw-not-valid table.ocf-configurations-table {border: 1px dotted red;}
+.pofw-product-options-wrapper .ocf-field.pofw-not-valid .pofw-required-text {color: red; font-style: italic;}
+
+.pofw-product-options-wrapper table.ocf-configurations-table {border-spacing: 3px; margin:0;}
+.pofw-product-options-wrapper table.ocf-configurations-table th,
+.pofw-product-options-wrapper table.ocf-configurations-table td {background-color: #f8f8f8;}
+.pofw-product-options-wrapper table.ocf-configurations-table .ocf-table-cell {cursor: pointer; border: 1px solid #f8f8f8; position:relative}
+.pofw-product-options-wrapper table.ocf-configurations-table .ocf-table-cell:not(.ocf-selected):not(.ocf-disabled):hover {background-color: white;}
+
+.pofw-product-options-wrapper table.ocf-configurations-table .ocf-table-cell.ocf-selected {border: 1px solid black;}
+.pofw-product-options-wrapper table.ocf-configurations-table .ocf-table-cell.ocf-disabled {color:#dad6d6;}
+
+.pofw-product-options-wrapper table.ocf-configurations-table .ocf-table-cell span.ocf-unselect { display:none;}
+.pofw-product-options-wrapper table.ocf-configurations-table .ocf-table-cell.ocf-selected span.ocf-unselect {
+    display: inline;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #5f5f77;
+    line-height: 20px;
+    z-index: 1;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;}
+
+
+
+
+
+
+
+
+
+

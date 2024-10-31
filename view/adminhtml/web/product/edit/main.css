@@ -1,0 +1,4 @@
+
+#woocommerce-product-data ul.wc-tabs li.ocf_product_data_options a::before {content: '\f163';} /* product tab icon*/
+
+.ocf-container {padding: 5px 20px 5px 12px;}
